@@ -30,8 +30,10 @@ jobs:
     steps:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.0.9
-    - run: echo "deploying..."
-    - run: ls -l
-    - run: cat artifact/osx.txt
-    - run: cat artifact/android.txt
+    - name: Examining deployment artifacts
+      run: |
+        echo "checking..."
+        ls -l
+        cat artifact/osx.txt
+        cat artifact/android.txt
     
