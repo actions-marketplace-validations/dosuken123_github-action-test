@@ -1,6 +1,7 @@
+name: daily e2e test
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   e2e-test:
     runs-on: ubuntu-latest
