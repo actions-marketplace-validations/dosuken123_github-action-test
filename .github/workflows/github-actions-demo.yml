@@ -1,5 +1,7 @@
+on: [push]
 jobs:
   job1:
+    runs-on: l
     steps:
       - uses: actions/checkout@v2
       - run: echo "Run your script here"
