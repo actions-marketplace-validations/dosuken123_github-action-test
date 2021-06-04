@@ -5,3 +5,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "Run your script here"
+      - run: pwd
+      - run: cat /etc/os-release
+      - run: cat /proc/cpuinfo
+      - run: ls -l
