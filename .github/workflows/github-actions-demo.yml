@@ -9,3 +9,7 @@ jobs:
       - run: cat /etc/os-release
       - run: cat /proc/cpuinfo
       - run: ls -l
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello World!
