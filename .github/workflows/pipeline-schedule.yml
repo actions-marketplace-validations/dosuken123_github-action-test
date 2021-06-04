@@ -1,8 +1,8 @@
 on:
   schedule:
     - cron: '* * * * *'
-  jobs:
-    e2e-test:
-      runs-on: ubuntu-latest
-      steps:
-        - run: date -u
+jobs:
+  e2e-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date -u
