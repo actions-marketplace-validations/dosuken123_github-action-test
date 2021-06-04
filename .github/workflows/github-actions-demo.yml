@@ -1,3 +1,4 @@
+name: MainWorkflow
 on: [push]
 jobs:
   build-osx:
