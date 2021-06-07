@@ -1,9 +1,0 @@
-name: daily e2e test
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-jobs:
-  e2e-test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: date -u
